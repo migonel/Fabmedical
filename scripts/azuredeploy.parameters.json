@@ -1,27 +1,27 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "Suffix": {
-            "value": "SUF"
-        },
-        "VirtualMachineAdminUsernameLinux": {
-            "value": "adminfabmedical"
-        },
-        "VirtualMachineAdminPublicKeyLinux": {
-            "value": "ssh-rsa AAAAB3N(...)vPiybQV admin@fabmedical"
-        },
-        "CosmosLocation": {
-            "value": "location"
-        },
-        "CosmosLocationName": {
-            "value": "Location Name"
-        },
-        "CosmosPairedLocation": {
-            "value": "pairedlocation"
-        },
-        "CosmosPairedLocationName": {
-            "value": "Paired Location Name"
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "Suffix": {
+      "value": "123"
+    },
+    "VirtualMachineAdminUsernameLinux": {
+      "value": "adminfabmedical"
+    },
+    "VirtualMachineAdminPublicKeyLinux": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCuzqcOGbYwj+0kh1s0GD39faiHAc7iYMeFfyOX9u2gzArWjpEF+oA1PXS11fX8uBz8r65dzYpJPMRGSLNYv29E2JhGS855oS6Aw/XNKbXvmWLun7Jtx2RkpM5v7MVeSuiyVmvPJbQmHVDx0l+i6mrd44PfAx99J2ovemNPfGtOxfyiy5N+I0f1bJ0KkrVYxoqNyWnMx/pY/8f/TlxO6AW6ewUZckNOMwFe7rArGlf9qg9J874CRftInemwBN6uOhW363zg0hkSYiH9p/yi2uF5sn1oyJNGzvp82GepnLWTAFMfXtGBwGaJKW0nrK0ffSflLrECphDh7dPT4Roh6FWF admin@fabmedical"
+    },
+    "CosmosLocation": {
+      "value": "northeurope"
+    },
+    "CosmosLocationName": {
+      "value": "North Europe"
+    },
+    "CosmosPairedLocation": {
+      "value": "westeurope"
+    },
+    "CosmosPairedLocationName": {
+      "value": "West Europe"
     }
+  }
 }
